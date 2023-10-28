@@ -3,9 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "./dist/common.js",
+  "types": "./dist/main.d.ts",
   "scripts": {
-    "main": "./main.ts",
-    "types": "./dist/main.d.ts",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
